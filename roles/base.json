@@ -15,6 +15,7 @@
   },
   "chef_type": "role",
   "run_list": [
+    "recipe[chef-client::delete_validation]",
     "recipe[ntp]"
   ],
   "env_run_lists": {
