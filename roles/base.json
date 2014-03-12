@@ -15,8 +15,10 @@
   "chef_type": "role",
   "run_list": [
     "recipe[chef-client::delete_validation]",
+    "recipe[ntp]",
     "recipe[users::sysadmins]",
-    "recipe[ntp]"
+    "recipe[openssh]",
+    "recipe[sudo]"
   ],
   "env_run_lists": {
   }
