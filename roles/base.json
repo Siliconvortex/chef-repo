@@ -18,6 +18,7 @@
     "recipe[ntp]",
     "recipe[users::sysadmins]",
     "recipe[openssh]",
+    "recipe[openssh::iptables]",
     "recipe[sudo]"
   ],
   "env_run_lists": {
